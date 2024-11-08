@@ -52,7 +52,7 @@ while True:
     if x_min_length <= len(x) <= x_max_length and contains_only_alphabetical_chars(x):
         break
     else:
-        print(f"The string '{x}' is invalid")
+        print(f"The string", x, "is invalid")
 
 # the distance between 'a' and 'z'
 max_distance = 25   
